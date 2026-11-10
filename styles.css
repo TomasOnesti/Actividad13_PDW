@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #cbcdcf;
+    color: rgb(10, 9, 9);
+}
+
+.app-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #18191a;
+}
+
+#map {
+    height: 450px;
+    width: 100%;
+    border-radius: 12px;
+    border: 3px solid #2d3748;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.popup-contenido {
+    color: #2d3748;
+}
+
+footer {
+    background-color: #414142;
+    color: #f7fafc;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+   
+    border-top: 4px solid #9b9c9e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer div {
+    
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+footer p:first-child {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+footer p:last-child {
+    color: #cbd5e0;
+}
+
+footer p:last-child:hover {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
